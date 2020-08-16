@@ -1,0 +1,188 @@
+@media screen and (max-width: 1366px) {
+    .contact,
+    .events,
+    .book,
+    .menu,
+    .team,
+    .about {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .home__time  {
+        left: 40px;
+    }
+    .home__social {
+        right: 40px;
+    }
+    .events__group .squared-image {
+        flex-basis: calc(50% - 40px);
+    }
+    .contact__block .button {
+        margin-left: auto;
+        margin-right: auto;
+        order: 2;
+    }
+    .contact__address {
+        margin-top: 10px;
+        flex-basis: 100%;
+        order: 3;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .home__title {
+        font-size: 76px;
+        line-height: 1.4;
+    }
+    .book .squared-image {
+        flex-basis: 50%;
+    }
+    .team .squared-image,
+    .about .squared-image {
+        flex-basis: 46.875%;
+    }
+}
+@media screen and (max-width: 940px) {
+    .menu__item {
+        flex-basis: 48%;
+        max-width: 100%;
+    }
+    .menu__item:nth-child(n + 3) {
+        margin-top: 32px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .header {
+        display: none;
+    }
+    .home__social,
+    .home__time {
+        display: none;
+    }
+    .home {
+        height: 700px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .home__title {
+        font-size: 56px;
+    }
+    .home__subtitle {
+        margin-top: 100px;
+    }
+    .home__down {
+        bottom: 60px;
+    }
+    .about, .team__content {
+        flex-direction: column;
+    }
+    
+    .team__block,
+    .about__block {
+        margin-top: 50px;
+        order: 2;
+    }
+
+    .book .squared-image {
+        display: none;
+    }
+    .book__form {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .menu__item {
+        flex-basis: 100%;
+    }
+    .menu__item:nth-child(n + 2) {
+        margin-top: 32px;
+    }
+    .contact__block input {
+        flex-basis: 100%;
+    }
+    .contact__block input + input {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .contact__block .button {
+        flex-basis: 100%;
+    }
+    .squared-image {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .square {
+        display: none;
+    }
+    .events__group .squared-image {
+        flex-basis: calc(50% - 20px);
+    }
+    .header__burger {
+        display: flex;
+        position: absolute;
+        top: 25px;
+        right: 0;
+    }
+}
+@media screen and (max-width: 420px) {
+    .contact, .events, .book, .menu, .team, .about, .home {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .home {
+        height: auto;
+        padding-bottom: 100px;
+    }
+    .home__logo {
+        margin-top: 0;
+    }
+    .home__subtitle {
+        margin-top: 50px;
+    }
+    .home__title {
+        font-size: 36px;
+    }
+    .home__down {
+        display: none;
+    }
+    .book__form input {
+        width: 100%;
+    }
+    .events__group .squared-image {
+        flex-basis: calc(50% - 10px);
+    }
+    .gallery {
+        flex-wrap: wrap;
+    }
+    .gallery__img {
+        flex-basis: 50%;
+    }
+    .contact__address span {
+        flex-basis: 100%;
+    }
+    .contact__address span + span {
+        margin-left: 0;
+    }
+    .menu__nav {
+        flex-wrap: wrap;
+    }
+    .menu__nav span + span {
+        border-left: none;
+    }
+    .menu__nav span {
+        width: auto;
+        padding-left: 8px;
+        padding-right: 8px;
+        line-height: 40px;
+    }
+    .home__nav {
+        padding-top: 100px;
+    }
+    .modal form {
+        flex-direction: column;
+    }
+    .modal input {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+}
